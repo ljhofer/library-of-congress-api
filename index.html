@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links to reset, boot strap, and CSS stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    
+    <title>Library of Congress Search Engine</title>
+</head>
+<body>
+    <div class="container-fluid">
+       
+       <!-- div that holds the aside and main section -->
+        <div class="row justify-content-start">
+            
+            <!-- Aside for search area -->
+            <aside class="col-3 search-area">
+               
+                <div >
+                    <h2 class="search-header">Library of Congress Search Engine</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search!">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Select a format . . . </label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Maps</option>
+                                <option>Audio recordings</option>
+                                <option>Phoo, print, drawing</option>
+                                <option>Manuscripts</option>
+                                <option>Newspapers</option>
+                                <option>Film and video</option>
+                                <option>Printed music</option>
+                                <option>Archived websites</option>
+                            </select>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block" id="search-button">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </aside>
+            
+            <!-- Main for search results -->
+            <main class="col-9 results-area">
+
+            <!-- Add cards using template literal here -->
+                <div >
+                    <h2 class="results-header">Search Results Placeholder</h2>
+                    <div class="card" style="width: 72rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+<!-- Links to jQuery and JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

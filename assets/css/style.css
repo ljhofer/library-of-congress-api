@@ -1,0 +1,23 @@
+/* Styling for search area */
+
+.search-area {
+    outline: 1px solid black
+
+}
+
+
+#search-button {
+    margin-top: 15px;
+
+}
+
+
+
+
+
+/* Styling for results area */
+
+.results-area {
+    outline: 1px solid black
+
+}
