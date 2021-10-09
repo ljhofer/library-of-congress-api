@@ -12,31 +12,31 @@
     <title>Library of Congress Search Engine</title>
 </head>
 <body>
-    <div class="d-flex container-fluid">
+    <div class="d-flex container">
        
        <!-- div that holds the aside and main section -->
-        <div class="row justify-content-start">
+        <div class="row">
             
             <!-- Aside for search area -->
             <aside class="col-3 search-area">
                
                 <div >
-                    <h2 class="search-header">Library of Congress Search Engine</h2>
+                    <h2 class="search-header" id="aside-header">Library of Congress Search Engine</h2>
                     <form>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search!">
+                            <input type="textarea" class="form-control" id="inputField" placeholder="Search!">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Select a format . . . </label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Maps</option>
-                                <option>Audio recordings</option>
-                                <option>Phoo, print, drawing</option>
-                                <option>Manuscripts</option>
-                                <option>Newspapers</option>
-                                <option>Film and video</option>
-                                <option>Printed music</option>
-                                <option>Archived websites</option>
+                            <select class="form-control" id="drop-down">
+                                <option value="maps">Maps</option>
+                                <option value="audio">Audio recordings</option>
+                                <option value="photos">Photo, print, drawing</option>
+                                <option value="manuscripts">Manuscripts</option>
+                                <option value="newspapers">Newspapers</option>
+                                <option value="film-and-videos">Film and video</option>
+                                <option value="notated-music">Printed music</option>
+                                <option value="websites">Archived websites</option>
                             </select>
                             <button type="button" class="btn btn-secondary btn-lg btn-block" id="search-button">Search</button>
                         </div>

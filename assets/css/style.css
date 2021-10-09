@@ -13,6 +13,7 @@
 
 aside {
     background-color: var(--backlight);
+    
 }
 
 .search-area {
@@ -31,9 +32,6 @@ aside {
 }
 
 
-
-
-
 /* Styling for results area */
 
 .results-area {
@@ -42,6 +40,7 @@ aside {
 
 main {
     background-color: var(--backnavy);
+    flex: 1 1 100%;
 }
 
 .results-header {
@@ -51,4 +50,19 @@ main {
 .card {
     color:var(--backnavy);
     background-color: var(--backlight);
+    margin-bottom: 17px;
 }
+
+/* Media queries */
+
+/* @media screen and (min-width: 768px) {
+    aside {
+        width: 50%;
+
+    }
+
+    main {
+        width: 50%;
+
+    }
+} */
