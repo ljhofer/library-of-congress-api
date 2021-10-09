@@ -1,13 +1,32 @@
+/* Variables */
+
+:root {
+    --backnavy: #3f5277;
+    --backlight: #D7E5F0;
+
+}
+
+
+
+
 /* Styling for search area */
+
+aside {
+    background-color: var(--backlight);
+}
 
 .search-area {
     outline: 1px solid black
 
 }
 
+.search-header {
+    color: var(--backnavy);
+}
 
 #search-button {
     margin-top: 15px;
+    background-color: #17a2b8;
 
 }
 
@@ -19,5 +38,17 @@
 
 .results-area {
     outline: 1px solid black
+}
 
+main {
+    background-color: var(--backnavy);
+}
+
+.results-header {
+    color: var(--backlight);
+}
+
+.card {
+    color:var(--backnavy);
+    background-color: var(--backlight);
 }
